@@ -5,7 +5,7 @@ HTML + CSS assignment repository for collab
 
 Create a sample clone of the below page using HTML and CSS.
 
-![Alt text](landing.jpg?raw=true "Google Page")
+![Alt text](/landing.jpg?raw=true "Google Page")
 
 
 ## Assignment 2
