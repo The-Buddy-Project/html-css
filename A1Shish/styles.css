@@ -30,7 +30,7 @@
 	float:left;
 	z-index:10;
         
-        border-radius: 15px / 50px;
+        
 }
 
 .micLogo {
@@ -43,7 +43,7 @@
 	float:right;
 	height:20px;
 	position:relative;
-	top:4px;
+	top:8px;
 	right:6px;
 	z-index:11;
 }
