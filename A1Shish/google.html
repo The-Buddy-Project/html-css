@@ -2,140 +2,53 @@
 <html>
 <head>
 
-<style>
+<link rel="stylesheet" href="styles.css">
 
-a:link{
-	text-decoration:none;
-	color: black;
-}
-a:hover{
-	text-decoration: underline;
-}
-
-#Place{
-	padding:15px;
-	margin-left:15px;
-}	
-
-#footerSide {
-	position:absolute;
-	width:100%;
-	height:40px;
-	background-color:#F2F2F2;
-	bottom:1px;
-	border-top:1px solid #E4E4E4;
-}
-
-#leftSideFooter {
-	display:block;
-	float:left;
-	width:48%;
-}
-
-#rightSideFooter {
-	display: block;
-	float:right;
-	text-align:right;
-}
-
-#leftSideFooter ul li{
-	display:inline-block;
-	padding-top:15px;
-	padding-bottom:5px;
-	opacity: 0.9;
-}
-
-#rightSideFooter ul li{
-	display:inline-block;
-	padding-top:15px;
-	padding-bottom:5px;
-	opacity: 0.9;
-}
-
-#leftSideFooter ul li{
-	padding-left:10px;
-}
-#rightSideFooter ul li{
-	padding-right:20px;
-}
-
-.Glogo {
-	width:100%;
-	padding-top:200px;
-	padding-bottom:25px;
-}
-
-.Glogo img {
-	display:block;
-	width: 300x;
-	height: 100px;
-	margin:auto;
-}
-
-.search {
-	width: 585px;
-	height: 27px;
-	margin:auto;
-	position:relative;
-}
-
-.search input {
-	width:570px;
-	height:100%;
-	border:1px solid #DDDDDD;
-	padding: 0 10px;
-	position:relative;
-	float:left;
-	z-index:10;
-}
-
-.micLogo {
-	position:absolute;
-	width:100%;
-	height:100%;
-}
-
-.micLogo img {
-	float:right;
-	height:20px;
-	position:relative;
-	top:4px;
-	right:6px;
-	z-index:11;
-}
-
-</style>
 </head>
 
-<body>
+ <body>
 		
-		<div class="Glogo"><img src="logo.png" alt="Google Logo"></div>
+    <div class="Glogo"><img src="logo.png" alt="Google Logo"></div>
 
-		<div class="search">
-			<input type="text" placeholder="I am a programmer|">
-			<div class="micLogo"><a href="#"><img src="mic.png" alt="mic"></a></div>
-		</div>
+    <div class="search">
+	<input type="text" placeholder="I am a programmer|">
+
+	<div class="micLogo"><a href="#"><img src="mic.png" alt="mic"></a></div>
+    </div>
+
+<div class="search">
+
+<input type="text" placeholder="i am a programmer">
+<input type="text" placeholder="i am a programmer wallpaper">
+<input type="text" placeholder="i am a programmer tshirt">
+<input type="text" placeholder="i am a programmer i can control life">
+<input type="text" placeholder="i am a programmer who cracked your email">
+<input type="text" placeholder="i am a programmer in this company. the sentence pattern is">
+<input type="text" placeholder="i am a programmer who cracked your account">
+<input type="text" placeholder="i am a programmer facebook">
+<input type="text" placeholder="i am a programmer cover photo">
+<input type="text" placeholder="i am a programmer quiz">
+    </div>
 		
-		<p> 
-		
-		<!-- Footer Code Starts Here   -->
-		<div id="footerSide">
-		   <p id="Place">India</p>
-			<div id="leftSideFooter">
-				<ul>
-				    <li><a href="#">Advertising</a></li>
-				    <li><a href="#">Business</a></li>
-				    <li><a href="#">About</a></li>
-				    <li><a href="#">How Search Works</a></li>
-				</ul>
-			</div>
-			<div id="rightSideFooter">
-				<ul>
-				    <li><a href="#">Privacy</a></li>
-				    <li><a href="#">Terms</a></li>
-				    <li><a href="#">Settings</a></li>
-				</ul>				
-			</div>
-		</div>
-</body>
+<!-- Footer Code Starts Here   -->
+
+    <footer>
+      <p class="location">India</p>
+      <nav class="clearfix">
+        <ul class="leftSide">
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">How Search Works</a></li>
+        </ul>
+
+        <ul class="rightSide">
+          <li><a href="#">Privary</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+ </body>
 </html>
