@@ -8,6 +8,12 @@ a:link{
 	text-decoration:none;
 	color: black;
 }
+
+#Place{
+	padding:15px;
+	margin-left:15px;
+}	
+
 #footerSide {
 	position:absolute;
 	width:100%;
@@ -25,6 +31,7 @@ a:link{
 
 #rightSideFooter {
 	display: block;
+	float:right;
 	text-align:right;
 }
 
@@ -32,12 +39,14 @@ a:link{
 	display:inline-block;
 	padding-top:15px;
 	padding-bottom:5px;
+	opacity: 0.9;
 }
 
 #rightSideFooter ul li{
 	display:inline-block;
 	padding-top:15px;
 	padding-bottom:5px;
+	opacity: 0.9;
 }
 
 #leftSideFooter ul li{
@@ -46,6 +55,7 @@ a:link{
 #rightSideFooter ul li{
 	padding-right:20px;
 }
+
 .Glogo {
 	width:100%;
 	padding-top:200px;
@@ -60,7 +70,7 @@ a:link{
 }
 
 .search {
-	width: 600px;
+	width: 585px;
 	height: 27px;
 	margin:auto;
 	position:relative;
@@ -97,16 +107,17 @@ a:link{
 <body>
 		
 		<div class="Glogo"><img src="logo.png" alt="Google Logo"></div>
-			<div class="search">
-				<input type="text">
-				<div class="micLogo"><a href="#"><img src="microphone.png" alt="mic"></a>
-			</div>
+
+		<div class="search">
+			<input type="text" placeholder="I am a programmer|">
+			<div class="micLogo"><a href="#"><img src="mic.png" alt="mic"></a></div>
 		</div>
 		
+		<p> 
 		
 		<!-- Footer Code Starts Here   -->
-
 		<div id="footerSide">
+		   <p id="Place">India</p>
 			<div id="leftSideFooter">
 				<ul>
 				    <li><a href="#">Advertising</a></li>
@@ -123,6 +134,5 @@ a:link{
 				</ul>				
 			</div>
 		</div>
-	</div>
 </body>
 </html>
