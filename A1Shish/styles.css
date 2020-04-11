@@ -18,16 +18,19 @@
 	height: 27px;
 	margin:auto;
 	position:relative;
+
 }
 
 .search input {
-	width:570px;
+	width:520px;
 	height:100%;
 	border:1px solid #DDDDDD;
-	padding: 0 10px;
+	padding: 3px 40px;
 	position:relative;
 	float:left;
 	z-index:10;
+        
+        border-radius: 15px / 50px;
 }
 
 .micLogo {
