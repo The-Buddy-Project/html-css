@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+a:link{
+	text-decoration:none;
+	color: black;
+}
+#footerSide {
+	position:absolute;
+	width:100%;
+	height:40px;
+	background-color:#F2F2F2;
+	bottom:1px;
+	border-top:1px solid #E4E4E4;
+}
+
+#leftSideFooter {
+	display:block;
+	float:left;
+	width:48%;
+}
+
+#rightSideFooter {
+	display: block;
+	text-align:right;
+}
+
+#leftSideFooter ul li{
+	display:inline-block;
+	padding-top:15px;
+	padding-bottom:5px;
+}
+
+#rightSideFooter ul li{
+	display:inline-block;
+	padding-top:15px;
+	padding-bottom:5px;
+}
+
+#leftSideFooter ul li{
+	padding-left:10px;
+}
+#rightSideFooter ul li{
+	padding-right:20px;
+}
+.Glogo {
+	width:100%;
+	padding-top:200px;
+	padding-bottom:25px;
+}
+
+.Glogo img {
+	display:block;
+	width: 300x;
+	height: 100px;
+	margin:auto;
+}
+
+.search {
+	width: 600px;
+	height: 27px;
+	margin:auto;
+	position:relative;
+}
+
+.search input {
+	width:570px;
+	height:100%;
+	border:1px solid #DDDDDD;
+	padding: 0 10px;
+	position:relative;
+	float:left;
+	z-index:10;
+}
+
+.micLogo {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.micLogo img {
+	float:right;
+	height:20px;
+	position:relative;
+	top:4px;
+	right:6px;
+	z-index:11;
+}
+
+</style>
+</head>
+
+<body>
+		
+		<div class="Glogo"><img src="logo.png" alt="Google Logo"></div>
+			<div class="search">
+				<input type="text">
+				<div class="micLogo"><a href="#"><img src="microphone.png" alt="mic"></a>
+			</div>
+		</div>
+		
+		
+		<!-- Footer Code Starts Here   -->
+
+		<div id="footerSide">
+			<div id="leftSideFooter">
+				<ul>
+				    <li><a href="#">Advertising</a></li>
+				    <li><a href="#">Business</a></li>
+				    <li><a href="#">About</a></li>
+				    <li><a href="#">How Search Works</a></li>
+				</ul>
+			</div>
+			<div id="rightSideFooter">
+				<ul>
+				    <li><a href="#">Privacy</a></li>
+				    <li><a href="#">Terms</a></li>
+				    <li><a href="#">Settings</a></li>
+				</ul>				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
