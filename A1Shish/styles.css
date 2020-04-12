@@ -33,13 +33,16 @@
 .search input {
 	width:520px;
 	height:100%;
-	border:1px solid #DDDDDD;
 	padding: 3px 40px;
 	position:relative;
 	float:left;
 	z-index:10;
-        
-        
+        outline:none;
+        border-right:none; 
+        border-left:none; 
+        border-top:none;
+        border-bottom:1px solid #DDDDDD;
+        font-size:18px;
 }
 .searchLogo {
 	position:absolute;
@@ -99,6 +102,25 @@
 	top:11px;
 	right:3px;
 	z-index:11;
+}
+
+.span1{
+	margin-left:75px; 
+	margin-bottom:4px; 
+	display:block
+}
+.span1 span{
+	font-weight:bold;
+}
+
+.span2{
+	margin-left:75px; 
+        margin-right:20px; 
+        float:right; 
+        font-style:italic; 
+        font-size:10px; 
+        color:gray; 
+        cursor:pointer
 }
 
 .button {
