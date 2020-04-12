@@ -1,5 +1,15 @@
 @import url("reset.css");
 
+.outer-block{
+	width: 650px;
+	height: 370px;
+	border: ridge #FFFFFF 2px;
+	margin: auto;
+	border-radius: 30px;
+	font-size: 18px;
+	
+}
+
 .Glogo {
 	width:100%;
 	padding-top:60px;
@@ -15,10 +25,9 @@
 
 .search {
 	width: 585px;
-	height: 27px;
+	height: 40px;
 	margin:auto;
 	position:relative;
-
 }
 
 .search input {
@@ -43,8 +52,8 @@
 	float:right;
 	height:20px;
 	position:relative;
-	top:8px;
-	right:6px;
+	top:11px;
+	right:3px;
 	z-index:11;
 }
 
@@ -58,8 +67,8 @@
 	float:left;
 	height:16px;
 	position:relative;
-	top:10px;
-	left:12px;
+	top:16px;
+	left:6px;
 	z-index:11;
 }
 
